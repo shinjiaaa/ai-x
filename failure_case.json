@@ -1,0 +1,42 @@
+[
+  {
+    "case_id": "startup_01",
+    "project_name": "Quibi",
+    "industry": "Entertainment/Streaming",
+    "failure_reason": "Product-Market Misfit & Oversaturated Market",
+    "ignored_signals": "Low subscription conversion after free trial, despite massive content spend",
+    "summary": "모바일 전용 숏폼 플랫폼을 지향했으나, 이동 중 시청이라는 가설이 팬데믹과 맞물려 무너졌고 유튜브/틱톡과의 차별화 실패로 막대한 자본을 소진하고 종료."
+  },
+  {
+    "case_id": "startup_02",
+    "project_name": "Jawbone",
+    "industry": "Hardware/Wearables",
+    "failure_reason": "High Burn Rate & Product Quality Issues",
+    "ignored_signals": "Early defect reports in UP wristband and rising inventory costs",
+    "summary": "시장 선점을 위해 무리하게 자금을 투입했으나 하드웨어 결함이 반복되었고, 경쟁사(Fitbit)와의 기술 격차를 좁히지 못한 채 자금 고갈로 실패."
+  },
+  {
+    "case_id": "startup_03",
+    "project_name": "ScaleFactor",
+    "industry": "Fintech/SaaS",
+    "failure_reason": "Software Automation Fallacy (Manual Overload)",
+    "ignored_signals": "Increasing customer complaints about bookkeeping errors and high manual intervention",
+    "summary": "AI 자동화 회계 솔루션을 내세웠으나 실제로는 사람이 수동으로 처리하는 비중이 컸으며, 서비스 품질 저하와 가설 검증 실패로 대규모 환불 사태 발생 후 폐업."
+  },
+  {
+    "case_id": "startup_04",
+    "project_name": "InVision",
+    "industry": "Design/Software",
+    "failure_reason": "Inability to Pivot & Intense Competition",
+    "ignored_signals": "Figma's rapid adoption due to real-time collaboration features",
+    "summary": "디자인 프로토타이핑 시장의 강자였으나, 웹 기반 실시간 협업이라는 시장 변화(Figma 등)를 외면하고 기존 플러그인 방식에 안주하다 시장 점유율 급락."
+  },
+  {
+    "case_id": "startup_05",
+    "project_name": "Fast",
+    "industry": "Fintech/Payment",
+    "failure_reason": "Extreme Burn Rate vs Low Revenue",
+    "ignored_signals": "Monthly revenue of only $600 despite $10M+ monthly burn rate",
+    "summary": "원클릭 결제 솔루션으로 막대한 투자를 받았으나, 실제 결제 처리 거래액(TPV) 성장이 투입된 마케팅 비용과 인건비를 전혀 감당하지 못해 1년 만에 폐업."
+  }
+]

@@ -1,7 +1,6 @@
 from pydantic import BaseModel, Field
 from typing import List
 
-# 1. 입력 양식 설정
 INPUT_SCHEMA = {
     "project_info": [
         {"key": "project_name", "label": "1. 프로젝트명", "placeholder": "예: AI 기반 개인 맞춤형 학습 플랫폼"},
@@ -15,7 +14,6 @@ INPUT_SCHEMA = {
     ]
 }
 
-# 2. 구조화된 출력을 위한 데이터 모델 (Instructor용)
 class RiskFactor(BaseModel):
     risk_name: str = Field(..., description="위험 요소 명칭")
     severity: int = Field(..., description="위험도 (1-10)")
