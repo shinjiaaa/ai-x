@@ -1,42 +1,122 @@
 [
   {
-    "case_id": "startup_01",
+    "case_id": "ST_001",
     "project_name": "Quibi",
     "industry": "Entertainment/Streaming",
-    "failure_reason": "Product-Market Misfit & Oversaturated Market",
-    "ignored_signals": "Low subscription conversion after free trial, despite massive content spend",
-    "summary": "모바일 전용 숏폼 플랫폼을 지향했으나, 이동 중 시청이라는 가설이 팬데믹과 맞물려 무너졌고 유튜브/틱톡과의 차별화 실패로 막대한 자본을 소진하고 종료."
+    "failure_reason": "Product-Market Misfit",
+    "ignored_signals": "Low conversion after free trial",
+    "summary": "모바일 전용 숏폼 가설이 팬데믹 상황과 맞지 않았고 유튜브/틱톡과의 차별화 실패."
   },
   {
-    "case_id": "startup_02",
-    "project_name": "Jawbone",
-    "industry": "Hardware/Wearables",
-    "failure_reason": "High Burn Rate & Product Quality Issues",
-    "ignored_signals": "Early defect reports in UP wristband and rising inventory costs",
-    "summary": "시장 선점을 위해 무리하게 자금을 투입했으나 하드웨어 결함이 반복되었고, 경쟁사(Fitbit)와의 기술 격차를 좁히지 못한 채 자금 고갈로 실패."
-  },
-  {
-    "case_id": "startup_03",
+    "case_id": "ST_002",
     "project_name": "ScaleFactor",
     "industry": "Fintech/SaaS",
-    "failure_reason": "Software Automation Fallacy (Manual Overload)",
-    "ignored_signals": "Increasing customer complaints about bookkeeping errors and high manual intervention",
-    "summary": "AI 자동화 회계 솔루션을 내세웠으나 실제로는 사람이 수동으로 처리하는 비중이 컸으며, 서비스 품질 저하와 가설 검증 실패로 대규모 환불 사태 발생 후 폐업."
+    "failure_reason": "Automation Fallacy",
+    "ignored_signals": "High manual intervention hidden from users",
+    "summary": "AI 자동화라고 주장했으나 실제론 수동 처리 비중이 높아 수익성 및 신뢰도 하락."
   },
   {
-    "case_id": "startup_04",
-    "project_name": "InVision",
-    "industry": "Design/Software",
-    "failure_reason": "Inability to Pivot & Intense Competition",
-    "ignored_signals": "Figma's rapid adoption due to real-time collaboration features",
-    "summary": "디자인 프로토타이핑 시장의 강자였으나, 웹 기반 실시간 협업이라는 시장 변화(Figma 등)를 외면하고 기존 플러그인 방식에 안주하다 시장 점유율 급락."
+    "case_id": "ST_003",
+    "project_name": "Jawbone",
+    "industry": "Hardware/Wearables",
+    "failure_reason": "Quality Control & Burn Rate",
+    "ignored_signals": "Repeated hardware defects in UP wristband",
+    "summary": "품질 문제 해결 전 과도한 마케팅 비용 투입으로 자금 고갈."
   },
   {
-    "case_id": "startup_05",
+    "case_id": "ST_004",
     "project_name": "Fast",
     "industry": "Fintech/Payment",
-    "failure_reason": "Extreme Burn Rate vs Low Revenue",
-    "ignored_signals": "Monthly revenue of only $600 despite $10M+ monthly burn rate",
-    "summary": "원클릭 결제 솔루션으로 막대한 투자를 받았으나, 실제 결제 처리 거래액(TPV) 성장이 투입된 마케팅 비용과 인건비를 전혀 감당하지 못해 1년 만에 폐업."
+    "failure_reason": "Extreme Burn Rate",
+    "ignored_signals": "Revenue $600 vs Burn $10M",
+    "summary": "거래액 성장이 투입 비용을 전혀 감당하지 못해 단기간에 파산."
+  },
+  {
+    "case_id": "ST_005",
+    "project_name": "InVision",
+    "industry": "Design/Software",
+    "failure_reason": "Competition Blindness",
+    "ignored_signals": "Figma's rapid browser-based adoption",
+    "summary": "클라우드 협업이라는 시장 변화를 간과하고 기존 툴에 안주하다 도태."
+  },
+  {
+    "case_id": "ST_006",
+    "project_name": "Zume Pizza",
+    "industry": "FoodTech/Robotics",
+    "failure_reason": "Over-Engineering",
+    "ignored_signals": "High maintenance cost of pizza robots",
+    "summary": "피자를 굽는 로봇의 효율이 사람보다 낮았으나 무리하게 확장하다 실패."
+  },
+  {
+    "case_id": "ST_007",
+    "project_name": "Juicero",
+    "industry": "Consumer Hardware",
+    "failure_reason": "Lack of Value Proposition",
+    "ignored_signals": "Users could squeeze juice packs by hand",
+    "summary": "400달러짜리 착즙기가 손으로 짜는 것과 큰 차이가 없다는 점이 탄로 나며 몰락."
+  },
+  {
+    "case_id": "ST_008",
+    "project_name": "Theranos",
+    "industry": "HealthTech",
+    "failure_reason": "Scientific Fraud & Ethics",
+    "ignored_signals": "Repeated failure in lab testing validation",
+    "summary": "핵심 기술이 실현 불가능함에도 거짓으로 투자 유치를 이어가다 법적 파산."
+  },
+  {
+    "case_id": "ST_009",
+    "project_name": "Anki",
+    "industry": "Robotics/Consumer",
+    "failure_reason": "Lack of Sustainable Business Model",
+    "ignored_signals": "High R&D costs not covered by toy sales",
+    "summary": "기술력은 높았으나 장난감 판매만으로 비싼 연구 비용을 감당하지 못함."
+  },
+  {
+    "case_id": "ST_010",
+    "project_name": "Beepi",
+    "industry": "Marketplace/Automotive",
+    "failure_reason": "Operational Inefficiency",
+    "ignored_signals": "Negative unit economics per car sold",
+    "summary": "차량 검수 및 배송 과정의 운영 비용이 매출보다 커서 팔수록 적자 발생."
+  },
+  {
+    "case_id": "ST_011",
+    "project_name": "Luxe",
+    "industry": "Service/On-demand",
+    "failure_reason": "Thin Margins",
+    "ignored_signals": "High labor costs in urban parking service",
+    "summary": "주차 대행 서비스의 인건비가 고객 지불 의사보다 높아 수익성 확보 실패."
+  },
+  {
+    "case_id": "ST_012",
+    "project_name": "Aria",
+    "industry": "E-commerce/Fashion",
+    "failure_reason": "Inventory Mismanagement",
+    "ignored_signals": "High return rates and unsold seasonal stock",
+    "summary": "재고 예측 실패로 인한 자금 동결과 반품 비용 증가로 파산."
+  },
+  {
+    "case_id": "ST_013",
+    "project_name": "Katerra",
+    "industry": "ConstructionTech",
+    "failure_reason": "Scale Complexity",
+    "ignored_signals": "Project delays and supply chain fragmentation",
+    "summary": "건설 전 과정을 수직 계열화하려 했으나 복잡성을 통제하지 못해 붕괴."
+  },
+  {
+    "case_id": "ST_014",
+    "project_name": "AppDirect",
+    "industry": "SaaS/B2B",
+    "failure_reason": "Long Sales Cycle",
+    "ignored_signals": "Slow adoption by enterprise customers",
+    "summary": "기업용 플랫폼의 긴 의사결정 과정을 견딜 수 있는 현금 흐름 부족."
+  },
+  {
+    "case_id": "ST_015",
+    "project_name": "Didi Chuxing (Global)",
+    "industry": "Logistics/Mobility",
+    "failure_reason": "Regulatory Hurdles",
+    "ignored_signals": "Government tightening on data security",
+    "summary": "정부 규제 및 데이터 정책 변화를 예측하지 못해 시장 가치 폭락."
   }
 ]
