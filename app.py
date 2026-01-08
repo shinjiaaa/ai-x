@@ -15,7 +15,7 @@ with st.sidebar:
 
 # 메인 입력 폼
 with st.form("plan_form"):
-    st.subheader("📋 기획서 작성")
+    st.subheader("기획서 작성")
     col1, col2 = st.columns(2)
     user_inputs = {}
     
@@ -36,7 +36,7 @@ if submit:
             report = engine.run(user_inputs)
             
             st.markdown("---")
-            st.subheader("📊 리스크 검증 리포트")
+            st.subheader("리스크 검증 리포트")
             
             st.warning("🧐 **기저 가정 타당성 검토**")
             st.write(report.assumptions_check)
