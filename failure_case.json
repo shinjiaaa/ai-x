@@ -4,119 +4,999 @@
     "project_name": "Quibi",
     "industry": "Entertainment/Streaming",
     "failure_reason": "Product-Market Misfit",
-    "ignored_signals": "Low conversion after free trial",
-    "summary": "모바일 전용 숏폼 가설이 팬데믹 상황과 맞지 않았고 유튜브/틱톡과의 차별화 실패."
+    "ignored_signals": "무료 체험 전환율 저조와 낮은 재방문",
+    "evidence": "출시 6개월 만에 서비스 종료를 발표했다.",
+    "summary": "모바일 전용 숏폼 전략이 시장 상황과 맞지 않아 폐쇄로 이어졌다.",
+    "sources": ["https://en.wikipedia.org/wiki/Quibi"]
   },
   {
     "case_id": "ST_002",
-    "project_name": "ScaleFactor",
-    "industry": "Fintech/SaaS",
-    "failure_reason": "Automation Fallacy",
-    "ignored_signals": "High manual intervention hidden from users",
-    "summary": "AI 자동화라고 주장했으나 실제론 수동 처리 비중이 높아 수익성 및 신뢰도 하락."
+    "project_name": "MoviePass",
+    "industry": "Entertainment/Subscription",
+    "failure_reason": "Unsustainable Pricing",
+    "ignored_signals": "과도한 가격 인하 이후 현금 소진",
+    "evidence": "2019년 서비스 중단, 이후 파산 절차를 밟았다.",
+    "summary": "원가 이하 요금으로 성장했지만 지속 불가능한 구조였다.",
+    "sources": ["https://en.wikipedia.org/wiki/MoviePass"]
   },
   {
     "case_id": "ST_003",
-    "project_name": "Jawbone",
-    "industry": "Hardware/Wearables",
-    "failure_reason": "Quality Control & Burn Rate",
-    "ignored_signals": "Repeated hardware defects in UP wristband",
-    "summary": "품질 문제 해결 전 과도한 마케팅 비용 투입으로 자금 고갈."
-  },
-  {
-    "case_id": "ST_004",
-    "project_name": "Fast",
-    "industry": "Fintech/Payment",
-    "failure_reason": "Extreme Burn Rate",
-    "ignored_signals": "Revenue $600 vs Burn $10M",
-    "summary": "거래액 성장이 투입 비용을 전혀 감당하지 못해 단기간에 파산."
-  },
-  {
-    "case_id": "ST_005",
-    "project_name": "InVision",
-    "industry": "Design/Software",
-    "failure_reason": "Competition Blindness",
-    "ignored_signals": "Figma's rapid browser-based adoption",
-    "summary": "클라우드 협업이라는 시장 변화를 간과하고 기존 툴에 안주하다 도태."
-  },
-  {
-    "case_id": "ST_006",
-    "project_name": "Zume Pizza",
-    "industry": "FoodTech/Robotics",
-    "failure_reason": "Over-Engineering",
-    "ignored_signals": "High maintenance cost of pizza robots",
-    "summary": "피자를 굽는 로봇의 효율이 사람보다 낮았으나 무리하게 확장하다 실패."
-  },
-  {
-    "case_id": "ST_007",
-    "project_name": "Juicero",
-    "industry": "Consumer Hardware",
-    "failure_reason": "Lack of Value Proposition",
-    "ignored_signals": "Users could squeeze juice packs by hand",
-    "summary": "400달러짜리 착즙기가 손으로 짜는 것과 큰 차이가 없다는 점이 탄로 나며 몰락."
-  },
-  {
-    "case_id": "ST_008",
     "project_name": "Theranos",
     "industry": "HealthTech",
     "failure_reason": "Scientific Fraud & Ethics",
-    "ignored_signals": "Repeated failure in lab testing validation",
-    "summary": "핵심 기술이 실현 불가능함에도 거짓으로 투자 유치를 이어가다 법적 파산."
+    "ignored_signals": "임상 검증 실패와 내부 고발",
+    "evidence": "2018년 회사는 해산되었고 경영진은 사기 혐의로 유죄 판결을 받았다.",
+    "summary": "핵심 기술이 입증되지 않았음에도 과장 홍보가 지속됐다.",
+    "sources": ["https://en.wikipedia.org/wiki/Theranos"]
+  },
+  {
+    "case_id": "ST_004",
+    "project_name": "WeWork",
+    "industry": "Real Estate/Shared Office",
+    "failure_reason": "Unsustainable Unit Economics",
+    "ignored_signals": "장기 임대와 단기 수익 모델의 불균형",
+    "evidence": "2019년 IPO 실패 이후 2023년 파산 보호를 신청했다.",
+    "summary": "임대 구조와 성장 전략이 수익성에 맞지 않았다.",
+    "sources": ["https://en.wikipedia.org/wiki/WeWork"]
+  },
+  {
+    "case_id": "ST_005",
+    "project_name": "FTX",
+    "industry": "Crypto/Exchange",
+    "failure_reason": "Governance Failure & Fraud",
+    "ignored_signals": "관련 당사자 거래와 재무 불투명성",
+    "evidence": "2022년 미국에서 파산 보호를 신청했다.",
+    "summary": "내부 통제 실패와 부정 의혹이 신뢰 붕괴로 이어졌다.",
+    "sources": ["https://en.wikipedia.org/wiki/FTX"]
+  },
+  {
+    "case_id": "ST_006",
+    "project_name": "SVB (Silicon Valley Bank)",
+    "industry": "Banking",
+    "failure_reason": "Liquidity & Interest Rate Risk",
+    "ignored_signals": "예금자 집중도와 금리 리스크 과대 노출",
+    "evidence": "2023년 FDIC에 의해 정리 절차가 진행되었다.",
+    "summary": "자산-부채 만기 불일치가 유동성 위기를 촉발했다.",
+    "sources": ["https://en.wikipedia.org/wiki/Silicon_Valley_Bank"]
+  },
+  {
+    "case_id": "ST_007",
+    "project_name": "Lehman Brothers",
+    "industry": "Finance/Investment Bank",
+    "failure_reason": "Excessive Leverage",
+    "ignored_signals": "부동산 노출과 레버리지 확대",
+    "evidence": "2008년 파산 보호를 신청했다.",
+    "summary": "과도한 레버리지와 부실 자산이 붕괴를 초래했다.",
+    "sources": ["https://en.wikipedia.org/wiki/Lehman_Brothers"]
+  },
+  {
+    "case_id": "ST_008",
+    "project_name": "Bear Stearns",
+    "industry": "Finance/Investment Bank",
+    "failure_reason": "Liquidity Crisis",
+    "ignored_signals": "서브프라임 관련 자산 급증",
+    "evidence": "2008년 긴급 인수로 독립 운영을 종료했다.",
+    "summary": "단기 유동성 위기가 인수 구제로 이어졌다.",
+    "sources": ["https://en.wikipedia.org/wiki/Bear_Stearns"]
   },
   {
     "case_id": "ST_009",
-    "project_name": "Anki",
-    "industry": "Robotics/Consumer",
-    "failure_reason": "Lack of Sustainable Business Model",
-    "ignored_signals": "High R&D costs not covered by toy sales",
-    "summary": "기술력은 높았으나 장난감 판매만으로 비싼 연구 비용을 감당하지 못함."
+    "project_name": "Washington Mutual",
+    "industry": "Banking",
+    "failure_reason": "Risky Mortgage Portfolio",
+    "ignored_signals": "고위험 모기지 확대",
+    "evidence": "2008년 미 역사상 최대 규모의 은행 파산으로 기록되었다.",
+    "summary": "부동산 부실이 예금 유출로 이어졌다.",
+    "sources": ["https://en.wikipedia.org/wiki/Washington_Mutual"]
   },
   {
     "case_id": "ST_010",
-    "project_name": "Beepi",
-    "industry": "Marketplace/Automotive",
-    "failure_reason": "Operational Inefficiency",
-    "ignored_signals": "Negative unit economics per car sold",
-    "summary": "차량 검수 및 배송 과정의 운영 비용이 매출보다 커서 팔수록 적자 발생."
+    "project_name": "Barings Bank",
+    "industry": "Banking",
+    "failure_reason": "Unauthorized Trading",
+    "ignored_signals": "리스크 통제 부재와 내부 감사 실패",
+    "evidence": "1995년 파산했고 이후 ING에 상징적 가격으로 매각됐다.",
+    "summary": "통제되지 않은 파생상품 거래가 은행을 붕괴시켰다.",
+    "sources": ["https://en.wikipedia.org/wiki/Barings_Bank"]
   },
   {
     "case_id": "ST_011",
-    "project_name": "Luxe",
-    "industry": "Service/On-demand",
-    "failure_reason": "Thin Margins",
-    "ignored_signals": "High labor costs in urban parking service",
-    "summary": "주차 대행 서비스의 인건비가 고객 지불 의사보다 높아 수익성 확보 실패."
+    "project_name": "Enron",
+    "industry": "Energy/Trading",
+    "failure_reason": "Accounting Fraud",
+    "ignored_signals": "특수목적법인 남용과 재무 불투명성",
+    "evidence": "2001년 파산을 신청했다.",
+    "summary": "회계 부정이 기업 신뢰 붕괴로 이어졌다.",
+    "sources": ["https://en.wikipedia.org/wiki/Enron"]
   },
   {
     "case_id": "ST_012",
-    "project_name": "Aria",
-    "industry": "E-commerce/Fashion",
-    "failure_reason": "Inventory Mismanagement",
-    "ignored_signals": "High return rates and unsold seasonal stock",
-    "summary": "재고 예측 실패로 인한 자금 동결과 반품 비용 증가로 파산."
+    "project_name": "WorldCom",
+    "industry": "Telecom",
+    "failure_reason": "Accounting Fraud",
+    "ignored_signals": "비용을 자산으로 처리하는 회계 조작",
+    "evidence": "2002년 파산을 신청했다.",
+    "summary": "회계 부정으로 최대 통신 파산 사례가 됐다.",
+    "sources": ["https://en.wikipedia.org/wiki/WorldCom"]
   },
   {
     "case_id": "ST_013",
-    "project_name": "Katerra",
-    "industry": "ConstructionTech",
-    "failure_reason": "Scale Complexity",
-    "ignored_signals": "Project delays and supply chain fragmentation",
-    "summary": "건설 전 과정을 수직 계열화하려 했으나 복잡성을 통제하지 못해 붕괴."
+    "project_name": "Wirecard",
+    "industry": "Fintech/Payment",
+    "failure_reason": "Fraud & Governance Failure",
+    "ignored_signals": "감사 경고와 대규모 자금 미확인",
+    "evidence": "2020년 파산 절차에 들어갔다.",
+    "summary": "감사 실패와 부정 회계가 붕괴를 촉발했다.",
+    "sources": ["https://en.wikipedia.org/wiki/Wirecard"]
   },
   {
     "case_id": "ST_014",
-    "project_name": "AppDirect",
-    "industry": "SaaS/B2B",
-    "failure_reason": "Long Sales Cycle",
-    "ignored_signals": "Slow adoption by enterprise customers",
-    "summary": "기업용 플랫폼의 긴 의사결정 과정을 견딜 수 있는 현금 흐름 부족."
+    "project_name": "Luckin Coffee",
+    "industry": "Food & Beverage",
+    "failure_reason": "Accounting Fraud",
+    "ignored_signals": "매출 부풀리기 의혹 제기",
+    "evidence": "2020년 나스닥 상장 폐지 조치를 받았다.",
+    "summary": "급성장 이면의 회계 부정이 신뢰 붕괴로 이어졌다.",
+    "sources": ["https://en.wikipedia.org/wiki/Luckin_Coffee"]
   },
   {
     "case_id": "ST_015",
-    "project_name": "Didi Chuxing (Global)",
-    "industry": "Logistics/Mobility",
-    "failure_reason": "Regulatory Hurdles",
-    "ignored_signals": "Government tightening on data security",
-    "summary": "정부 규제 및 데이터 정책 변화를 예측하지 못해 시장 가치 폭락."
+    "project_name": "Mt. Gox",
+    "industry": "Crypto/Exchange",
+    "failure_reason": "Security Failure",
+    "ignored_signals": "보안 취약점과 고객 자산 보호 미흡",
+    "evidence": "2014년 파산을 신청했다.",
+    "summary": "대규모 해킹과 자산 손실이 거래소 붕괴를 야기했다.",
+    "sources": ["https://en.wikipedia.org/wiki/Mt._Gox"]
+  },
+  {
+    "case_id": "ST_016",
+    "project_name": "Celsius Network",
+    "industry": "Crypto/Lending",
+    "failure_reason": "Liquidity Crisis",
+    "ignored_signals": "고수익 상품에 대한 과도한 위험",
+    "evidence": "2022년 파산 보호를 신청했다.",
+    "summary": "유동성 위기와 시장 급락이 동시 발생했다.",
+    "sources": ["https://en.wikipedia.org/wiki/Celsius_Network"]
+  },
+  {
+    "case_id": "ST_017",
+    "project_name": "Voyager Digital",
+    "industry": "Crypto/Exchange",
+    "failure_reason": "Counterparty Exposure",
+    "ignored_signals": "대형 거래상대방 부실",
+    "evidence": "2022년 파산을 신청했다.",
+    "summary": "거래상대방 리스크가 연쇄 붕괴로 이어졌다.",
+    "sources": ["https://en.wikipedia.org/wiki/Voyager_Digital"]
+  },
+  {
+    "case_id": "ST_018",
+    "project_name": "BlockFi",
+    "industry": "Crypto/Lending",
+    "failure_reason": "Contagion Risk",
+    "ignored_signals": "시장 변동성에 대한 자본 완충 부족",
+    "evidence": "2022년 파산 보호를 신청했다.",
+    "summary": "시장 급락과 거래 상대 부실이 동시에 터졌다.",
+    "sources": ["https://en.wikipedia.org/wiki/BlockFi"]
+  },
+  {
+    "case_id": "ST_019",
+    "project_name": "Three Arrows Capital",
+    "industry": "Crypto/Hedge Fund",
+    "failure_reason": "Excessive Leverage",
+    "ignored_signals": "레버리지 과다와 담보 관리 미흡",
+    "evidence": "2022년 청산 절차에 들어갔다.",
+    "summary": "과도한 레버리지와 시장 급락이 동시 발생했다.",
+    "sources": ["https://en.wikipedia.org/wiki/Three_Arrows_Capital"]
+  },
+  {
+    "case_id": "ST_020",
+    "project_name": "Greensill Capital",
+    "industry": "Fintech/Trade Finance",
+    "failure_reason": "Concentration Risk",
+    "ignored_signals": "특정 고객군에 과도한 노출",
+    "evidence": "2021년 법정관리 절차에 들어갔다.",
+    "summary": "고객 집중 리스크가 금융 플랫폼 붕괴로 이어졌다.",
+    "sources": ["https://en.wikipedia.org/wiki/Greensill_Capital"]
+  },
+  {
+    "case_id": "ST_021",
+    "project_name": "Carillion",
+    "industry": "Construction",
+    "failure_reason": "Overextension",
+    "ignored_signals": "프로젝트 지연과 비용 초과",
+    "evidence": "2018년 영국에서 강제 청산에 들어갔다.",
+    "summary": "과도한 확장과 수익성 악화가 붕괴를 낳았다.",
+    "sources": ["https://en.wikipedia.org/wiki/Carillion"]
+  },
+  {
+    "case_id": "ST_022",
+    "project_name": "SunEdison",
+    "industry": "Energy/Solar",
+    "failure_reason": "Debt Overhang",
+    "ignored_signals": "무리한 인수와 부채 급증",
+    "evidence": "2016년 파산 보호를 신청했다.",
+    "summary": "공격적 인수가 재무 부담으로 돌아왔다.",
+    "sources": ["https://en.wikipedia.org/wiki/SunEdison"]
+  },
+  {
+    "case_id": "ST_023",
+    "project_name": "Solyndra",
+    "industry": "Energy/Solar",
+    "failure_reason": "Cost Disadvantage",
+    "ignored_signals": "중국산 저가 패널 가격 급락",
+    "evidence": "2011년 파산 보호를 신청했다.",
+    "summary": "원가 경쟁력을 확보하지 못해 실패했다.",
+    "sources": ["https://en.wikipedia.org/wiki/Solyndra"]
+  },
+  {
+    "case_id": "ST_024",
+    "project_name": "A123 Systems",
+    "industry": "Energy/Batteries",
+    "failure_reason": "Manufacturing Defects",
+    "ignored_signals": "품질 문제와 리콜 비용 증가",
+    "evidence": "2012년 파산 보호를 신청했다.",
+    "summary": "품질 문제가 재무 위기로 이어졌다.",
+    "sources": ["https://en.wikipedia.org/wiki/A123_Systems"]
+  },
+  {
+    "case_id": "ST_025",
+    "project_name": "Better Place",
+    "industry": "Mobility/EV",
+    "failure_reason": "Capital Intensive Model",
+    "ignored_signals": "교체형 배터리 인프라 이용률 저조",
+    "evidence": "2013년 파산을 신청했다.",
+    "summary": "인프라 중심 사업 모델이 수요를 따라가지 못했다.",
+    "sources": ["https://en.wikipedia.org/wiki/Better_Place_(company)"]
+  },
+  {
+    "case_id": "ST_026",
+    "project_name": "Fisker Automotive",
+    "industry": "Automotive/EV",
+    "failure_reason": "Production Delays",
+    "ignored_signals": "공급망 문제와 품질 이슈",
+    "evidence": "2013년 파산 보호를 신청했다.",
+    "summary": "양산 지연과 자금 부족이 겹쳤다.",
+    "sources": ["https://en.wikipedia.org/wiki/Fisker_Automotive"]
+  },
+  {
+    "case_id": "ST_027",
+    "project_name": "DeLorean Motor Company",
+    "industry": "Automotive",
+    "failure_reason": "Cash Flow Shortage",
+    "ignored_signals": "판매 부진과 자금 조달 실패",
+    "evidence": "1982년 파산했다.",
+    "summary": "판매 부진과 운영 비용이 겹치며 붕괴했다.",
+    "sources": ["https://en.wikipedia.org/wiki/DeLorean_Motor_Company"]
+  },
+  {
+    "case_id": "ST_028",
+    "project_name": "Saab Automobile",
+    "industry": "Automotive",
+    "failure_reason": "Liquidity Crisis",
+    "ignored_signals": "연속적인 생산 중단",
+    "evidence": "2011년 파산을 신청했다.",
+    "summary": "유동성 위기가 생산 중단으로 이어졌다.",
+    "sources": ["https://en.wikipedia.org/wiki/Saab_Automobile"]
+  },
+  {
+    "case_id": "ST_029",
+    "project_name": "Rover Group",
+    "industry": "Automotive",
+    "failure_reason": "Product Strategy Failure",
+    "ignored_signals": "노후 라인업과 경쟁력 부족",
+    "evidence": "2005년 법정관리 절차에 들어갔다.",
+    "summary": "제품 경쟁력 저하가 장기 부진으로 이어졌다.",
+    "sources": ["https://en.wikipedia.org/wiki/Rover_Group"]
+  },
+  {
+    "case_id": "ST_030",
+    "project_name": "Daewoo Motors",
+    "industry": "Automotive",
+    "failure_reason": "Debt Crisis",
+    "ignored_signals": "과도한 부채와 글로벌 수요 둔화",
+    "evidence": "1999년 부도 이후 구조조정을 거쳤다.",
+    "summary": "재무 위기가 사업 붕괴로 이어졌다.",
+    "sources": ["https://en.wikipedia.org/wiki/Daewoo_Motors"]
+  },
+  {
+    "case_id": "ST_031",
+    "project_name": "Pontiac",
+    "industry": "Automotive/Brand",
+    "failure_reason": "Brand Rationalization",
+    "ignored_signals": "판매 감소와 브랜드 중복",
+    "evidence": "2010년 브랜드가 종료되었다.",
+    "summary": "브랜드 포트폴리오 재편 과정에서 중단됐다.",
+    "sources": ["https://en.wikipedia.org/wiki/Pontiac"]
+  },
+  {
+    "case_id": "ST_032",
+    "project_name": "Saturn",
+    "industry": "Automotive/Brand",
+    "failure_reason": "Market Share Erosion",
+    "ignored_signals": "판매 감소와 제품 경쟁력 약화",
+    "evidence": "2010년 브랜드가 종료되었다.",
+    "summary": "차별화 전략이 약화되며 브랜드가 사라졌다.",
+    "sources": ["https://en.wikipedia.org/wiki/Saturn_Corporation"]
+  },
+  {
+    "case_id": "ST_033",
+    "project_name": "Oldsmobile",
+    "industry": "Automotive/Brand",
+    "failure_reason": "Brand Obsolescence",
+    "ignored_signals": "고객층 고령화와 판매 감소",
+    "evidence": "2004년 브랜드가 종료되었다.",
+    "summary": "브랜드 노후화가 중단 결정으로 이어졌다.",
+    "sources": ["https://en.wikipedia.org/wiki/Oldsmobile"]
+  },
+  {
+    "case_id": "ST_034",
+    "project_name": "Hummer",
+    "industry": "Automotive/Brand",
+    "failure_reason": "Oil Price Sensitivity",
+    "ignored_signals": "연비 규제 강화와 수요 감소",
+    "evidence": "2010년 브랜드가 종료되었다.",
+    "summary": "시장 환경 변화가 대형 SUV 수요를 축소했다.",
+    "sources": ["https://en.wikipedia.org/wiki/Hummer"]
+  },
+  {
+    "case_id": "ST_035",
+    "project_name": "Nokia (Devices)",
+    "industry": "Consumer Electronics",
+    "failure_reason": "Platform Shift Missed",
+    "ignored_signals": "스마트폰 OS 생태계 전환",
+    "evidence": "모바일 사업은 2014년 마이크로소프트에 인수됐다.",
+    "summary": "플랫폼 전환에 늦게 대응해 시장 지배력을 잃었다.",
+    "sources": ["https://en.wikipedia.org/wiki/Nokia"]
+  },
+  {
+    "case_id": "ST_036",
+    "project_name": "Palm, Inc.",
+    "industry": "Consumer Electronics",
+    "failure_reason": "Platform Lag",
+    "ignored_signals": "스마트폰 경쟁 심화",
+    "evidence": "2010년 HP에 인수된 뒤 기기 사업이 중단됐다.",
+    "summary": "OS 전환 속도가 늦어 경쟁에서 밀렸다.",
+    "sources": ["https://en.wikipedia.org/wiki/Palm,_Inc."]
+  },
+  {
+    "case_id": "ST_037",
+    "project_name": "Compaq",
+    "industry": "Computing/Hardware",
+    "failure_reason": "Margin Erosion",
+    "ignored_signals": "PC 가격 경쟁 심화",
+    "evidence": "2002년 HP에 인수되었다.",
+    "summary": "가격 경쟁으로 독립 생존이 어려워졌다.",
+    "sources": ["https://en.wikipedia.org/wiki/Compaq"]
+  },
+  {
+    "case_id": "ST_038",
+    "project_name": "Digital Equipment Corporation",
+    "industry": "Computing/Hardware",
+    "failure_reason": "Market Shift",
+    "ignored_signals": "미니컴퓨터 수요 감소",
+    "evidence": "1998년 Compaq에 인수되었다.",
+    "summary": "시장 전환에 늦게 대응하며 매각되었다.",
+    "sources": ["https://en.wikipedia.org/wiki/Digital_Equipment_Corporation"]
+  },
+  {
+    "case_id": "ST_039",
+    "project_name": "Sun Microsystems",
+    "industry": "Computing/Software",
+    "failure_reason": "Competitive Pressure",
+    "ignored_signals": "서버 시장 경쟁 심화",
+    "evidence": "2010년 Oracle에 인수되었다.",
+    "summary": "경쟁 심화로 독립 성장이 어려워졌다.",
+    "sources": ["https://en.wikipedia.org/wiki/Sun_Microsystems"]
+  },
+  {
+    "case_id": "ST_040",
+    "project_name": "Silicon Graphics (SGI)",
+    "industry": "Computing/Hardware",
+    "failure_reason": "Demand Collapse",
+    "ignored_signals": "고성능 워크스테이션 수요 감소",
+    "evidence": "2009년 파산 보호를 신청했다.",
+    "summary": "시장 축소와 제품 전환 실패가 겹쳤다.",
+    "sources": ["https://en.wikipedia.org/wiki/Silicon_Graphics"]
+  },
+  {
+    "case_id": "ST_041",
+    "project_name": "Nortel",
+    "industry": "Telecom/Equipment",
+    "failure_reason": "Financial Restatement",
+    "ignored_signals": "회계 오류와 실적 하락",
+    "evidence": "2009년 파산 보호를 신청했다.",
+    "summary": "회계 문제와 시장 변화가 동시에 터졌다.",
+    "sources": ["https://en.wikipedia.org/wiki/Nortel"]
+  },
+  {
+    "case_id": "ST_042",
+    "project_name": "Global Crossing",
+    "industry": "Telecom",
+    "failure_reason": "Overcapacity",
+    "ignored_signals": "광케이블 과잉 투자",
+    "evidence": "2002년 파산을 신청했다.",
+    "summary": "버블 붕괴로 과잉 설비가 부메랑이 됐다.",
+    "sources": ["https://en.wikipedia.org/wiki/Global_Crossing"]
+  },
+  {
+    "case_id": "ST_043",
+    "project_name": "Blockbuster",
+    "industry": "Media/Retail",
+    "failure_reason": "Digital Disruption Blindness",
+    "ignored_signals": "스트리밍 전환 가속",
+    "evidence": "2010년 파산 보호를 신청했다.",
+    "summary": "디지털 전환 속도를 과소평가했다.",
+    "sources": ["https://en.wikipedia.org/wiki/Blockbuster_LLC"]
+  },
+  {
+    "case_id": "ST_044",
+    "project_name": "Borders Group",
+    "industry": "Retail/Books",
+    "failure_reason": "E-commerce Shift Missed",
+    "ignored_signals": "온라인 서점 점유율 급증",
+    "evidence": "2011년 파산을 신청했다.",
+    "summary": "온라인 전환에 뒤처져 매장이 붕괴했다.",
+    "sources": ["https://en.wikipedia.org/wiki/Borders_Group"]
+  },
+  {
+    "case_id": "ST_045",
+    "project_name": "Circuit City",
+    "industry": "Retail/Electronics",
+    "failure_reason": "Cost Structure Mismatch",
+    "ignored_signals": "온라인과 대형 경쟁사 압박",
+    "evidence": "2008년 파산을 신청했다.",
+    "summary": "비용 구조가 경쟁 환경을 버티지 못했다.",
+    "sources": ["https://en.wikipedia.org/wiki/Circuit_City"]
+  },
+  {
+    "case_id": "ST_046",
+    "project_name": "Toys \"R\" Us",
+    "industry": "Retail/Toys",
+    "failure_reason": "Debt Overhang",
+    "ignored_signals": "전자상거래 성장과 매장 매출 하락",
+    "evidence": "2017년 파산 보호를 신청했다.",
+    "summary": "부채 부담과 온라인 전환 실패가 겹쳤다.",
+    "sources": ["https://en.wikipedia.org/wiki/Toys_%22R%22_Us"]
+  },
+  {
+    "case_id": "ST_047",
+    "project_name": "Sears",
+    "industry": "Retail/Department Store",
+    "failure_reason": "Chronic Underinvestment",
+    "ignored_signals": "매장 노후화와 매출 감소",
+    "evidence": "2018년 파산 보호를 신청했다.",
+    "summary": "투자 부족으로 경쟁력을 잃었다.",
+    "sources": ["https://en.wikipedia.org/wiki/Sears"]
+  },
+  {
+    "case_id": "ST_048",
+    "project_name": "Kmart",
+    "industry": "Retail/Discount",
+    "failure_reason": "Competitive Pressure",
+    "ignored_signals": "월마트·타깃 성장",
+    "evidence": "2002년 파산을 신청했다.",
+    "summary": "가격 경쟁에서 밀리며 구조가 붕괴했다.",
+    "sources": ["https://en.wikipedia.org/wiki/Kmart"]
+  },
+  {
+    "case_id": "ST_049",
+    "project_name": "JCPenney",
+    "industry": "Retail/Department Store",
+    "failure_reason": "Strategic Missteps",
+    "ignored_signals": "고객 이탈과 매출 급감",
+    "evidence": "2020년 파산 보호를 신청했다.",
+    "summary": "급격한 전략 전환이 고객 이탈을 촉발했다.",
+    "sources": ["https://en.wikipedia.org/wiki/JCPenney"]
+  },
+  {
+    "case_id": "ST_050",
+    "project_name": "RadioShack",
+    "industry": "Retail/Electronics",
+    "failure_reason": "Retail Footprint Overhang",
+    "ignored_signals": "온라인 구매 전환 가속",
+    "evidence": "2015년과 2017년 두 차례 파산 보호를 신청했다.",
+    "summary": "매장 기반 모델이 디지털 전환을 버티지 못했다.",
+    "sources": ["https://en.wikipedia.org/wiki/RadioShack"]
+  },
+  {
+    "case_id": "ST_051",
+    "project_name": "Kodak",
+    "industry": "Imaging",
+    "failure_reason": "Innovation Cannibalization Fear",
+    "ignored_signals": "디지털 카메라 시장 확대",
+    "evidence": "2012년 파산 보호를 신청했다.",
+    "summary": "디지털 전환이 늦어 핵심 사업이 붕괴했다.",
+    "sources": ["https://en.wikipedia.org/wiki/Kodak"]
+  },
+  {
+    "case_id": "ST_052",
+    "project_name": "Polaroid",
+    "industry": "Imaging",
+    "failure_reason": "Technology Disruption",
+    "ignored_signals": "디지털 사진 시장 급성장",
+    "evidence": "2001년 파산 보호를 신청했다.",
+    "summary": "즉석필름 모델이 디지털 전환을 따라가지 못했다.",
+    "sources": ["https://en.wikipedia.org/wiki/Polaroid"]
+  },
+  {
+    "case_id": "ST_053",
+    "project_name": "Tower Records",
+    "industry": "Retail/Music",
+    "failure_reason": "Digital Shift",
+    "ignored_signals": "온라인 음악 구매 확산",
+    "evidence": "2006년 청산 절차에 들어갔다.",
+    "summary": "물리 매장 중심 모델이 디지털 전환에 밀렸다.",
+    "sources": ["https://en.wikipedia.org/wiki/Tower_Records"]
+  },
+  {
+    "case_id": "ST_054",
+    "project_name": "HMV Group",
+    "industry": "Retail/Music",
+    "failure_reason": "Sales Decline",
+    "ignored_signals": "스트리밍 확산에 따른 CD 판매 하락",
+    "evidence": "2018년 법정관리 절차에 들어갔다.",
+    "summary": "오프라인 음반 매장이 구조적 감소를 맞았다.",
+    "sources": ["https://en.wikipedia.org/wiki/HMV"]
+  },
+  {
+    "case_id": "ST_055",
+    "project_name": "Virgin Megastores",
+    "industry": "Retail/Music",
+    "failure_reason": "Digital Disruption",
+    "ignored_signals": "음악 소비의 디지털 전환",
+    "evidence": "2007년 미국 체인이 폐점했다.",
+    "summary": "디지털 유통 확산으로 대형 매장이 축소됐다.",
+    "sources": ["https://en.wikipedia.org/wiki/Virgin_Megastores"]
+  },
+  {
+    "case_id": "ST_056",
+    "project_name": "Payless ShoeSource",
+    "industry": "Retail/Footwear",
+    "failure_reason": "Debt Overhang",
+    "ignored_signals": "동일 점포 매출 하락",
+    "evidence": "2017년과 2019년 두 차례 파산을 신청했다.",
+    "summary": "부채 부담과 매출 둔화가 겹쳤다.",
+    "sources": ["https://en.wikipedia.org/wiki/Payless_ShoeSource"]
+  },
+  {
+    "case_id": "ST_057",
+    "project_name": "Sports Authority",
+    "industry": "Retail/Sporting Goods",
+    "failure_reason": "Overexpansion",
+    "ignored_signals": "온라인 경쟁과 재고 부담",
+    "evidence": "2016년 파산 후 매장을 정리했다.",
+    "summary": "확장 중심 전략이 수익성을 훼손했다.",
+    "sources": ["https://en.wikipedia.org/wiki/The_Sports_Authority"]
+  },
+  {
+    "case_id": "ST_058",
+    "project_name": "Neiman Marcus",
+    "industry": "Retail/Luxury",
+    "failure_reason": "Debt Burden",
+    "ignored_signals": "럭셔리 수요 둔화",
+    "evidence": "2020년 파산 보호를 신청했다.",
+    "summary": "부채 부담과 수요 둔화가 결합됐다.",
+    "sources": ["https://en.wikipedia.org/wiki/Neiman_Marcus"]
+  },
+  {
+    "case_id": "ST_059",
+    "project_name": "J.Crew Group",
+    "industry": "Retail/Apparel",
+    "failure_reason": "Brand Fatigue",
+    "ignored_signals": "매출 감소와 프로모션 과다",
+    "evidence": "2020년 파산 보호를 신청했다.",
+    "summary": "브랜드 매력이 약화되며 수익성이 악화됐다.",
+    "sources": ["https://en.wikipedia.org/wiki/J.Crew"]
+  },
+  {
+    "case_id": "ST_060",
+    "project_name": "Pier 1 Imports",
+    "industry": "Retail/Home Goods",
+    "failure_reason": "E-commerce Shift Missed",
+    "ignored_signals": "온라인 전환 지연",
+    "evidence": "2020년 파산을 신청하고 매장을 폐쇄했다.",
+    "summary": "오프라인 의존도가 높아 구조조정이 불가피했다.",
+    "sources": ["https://en.wikipedia.org/wiki/Pier_1_Imports"]
+  },
+  {
+    "case_id": "ST_061",
+    "project_name": "Bed Bath & Beyond",
+    "industry": "Retail/Home Goods",
+    "failure_reason": "Inventory Mismanagement",
+    "ignored_signals": "재고 과잉과 고객 이탈",
+    "evidence": "2023년 파산 보호를 신청했다.",
+    "summary": "재고와 운영 효율 문제가 장기화됐다.",
+    "sources": ["https://en.wikipedia.org/wiki/Bed_Bath_%26_Beyond"]
+  },
+  {
+    "case_id": "ST_062",
+    "project_name": "Pan Am",
+    "industry": "Airline",
+    "failure_reason": "Cost Structure Mismatch",
+    "ignored_signals": "연료비 상승과 경쟁 심화",
+    "evidence": "1991년 운영을 종료했다.",
+    "summary": "고정비 중심 구조가 시장 변화를 버티지 못했다.",
+    "sources": ["https://en.wikipedia.org/wiki/Pan_Am"]
+  },
+  {
+    "case_id": "ST_063",
+    "project_name": "Trans World Airlines (TWA)",
+    "industry": "Airline",
+    "failure_reason": "Debt & Competition",
+    "ignored_signals": "잦은 파산과 수익성 악화",
+    "evidence": "2001년 파산 후 American Airlines에 흡수되었다.",
+    "summary": "부채 부담과 경쟁 심화가 누적됐다.",
+    "sources": ["https://en.wikipedia.org/wiki/Trans_World_Airlines"]
+  },
+  {
+    "case_id": "ST_064",
+    "project_name": "Eastern Air Lines",
+    "industry": "Airline",
+    "failure_reason": "Labor Conflict",
+    "ignored_signals": "장기 파업과 비용 증가",
+    "evidence": "1991년 운영을 종료했다.",
+    "summary": "노사 갈등과 비용 구조가 붕괴로 이어졌다.",
+    "sources": ["https://en.wikipedia.org/wiki/Eastern_Air_Lines"]
+  },
+  {
+    "case_id": "ST_065",
+    "project_name": "Swissair",
+    "industry": "Airline",
+    "failure_reason": "Overexpansion",
+    "ignored_signals": "과도한 인수와 부채 확대",
+    "evidence": "2001년 항공편 운항이 중단되었다.",
+    "summary": "무리한 확장 전략이 붕괴를 촉발했다.",
+    "sources": ["https://en.wikipedia.org/wiki/Swissair"]
+  },
+  {
+    "case_id": "ST_066",
+    "project_name": "Sabena",
+    "industry": "Airline",
+    "failure_reason": "Financial Weakness",
+    "ignored_signals": "구조적 적자와 수요 둔화",
+    "evidence": "2001년 파산을 신청했다.",
+    "summary": "장기 적자가 항공사 해체로 이어졌다.",
+    "sources": ["https://en.wikipedia.org/wiki/Sabena"]
+  },
+  {
+    "case_id": "ST_067",
+    "project_name": "Ansett Australia",
+    "industry": "Airline",
+    "failure_reason": "Cash Flow Shortage",
+    "ignored_signals": "운영 비용 증가와 수요 둔화",
+    "evidence": "2001년 파산 이후 항공편이 중단됐다.",
+    "summary": "수익성 악화가 항공사 붕괴로 이어졌다.",
+    "sources": ["https://en.wikipedia.org/wiki/Ansett_Australia"]
+  },
+  {
+    "case_id": "ST_068",
+    "project_name": "Air Berlin",
+    "industry": "Airline",
+    "failure_reason": "Sustained Losses",
+    "ignored_signals": "지속적 영업손실",
+    "evidence": "2017년 파산을 신청했다.",
+    "summary": "지속적 손실이 사업 중단으로 이어졌다.",
+    "sources": ["https://en.wikipedia.org/wiki/Air_Berlin"]
+  },
+  {
+    "case_id": "ST_069",
+    "project_name": "Monarch Airlines",
+    "industry": "Airline",
+    "failure_reason": "Competitive Pressure",
+    "ignored_signals": "저비용 항공 경쟁 심화",
+    "evidence": "2017년 운영을 종료했다.",
+    "summary": "경쟁 심화와 비용 구조 문제로 붕괴했다.",
+    "sources": ["https://en.wikipedia.org/wiki/Monarch_Airlines"]
+  },
+  {
+    "case_id": "ST_070",
+    "project_name": "Thomas Cook Group",
+    "industry": "Travel",
+    "failure_reason": "Debt Burden",
+    "ignored_signals": "온라인 예약 전환과 수요 둔화",
+    "evidence": "2019년 청산 절차에 들어갔다.",
+    "summary": "부채 부담과 시장 변화가 결합됐다.",
+    "sources": ["https://en.wikipedia.org/wiki/Thomas_Cook_Group"]
+  },
+  {
+    "case_id": "ST_071",
+    "project_name": "Flybe",
+    "industry": "Airline",
+    "failure_reason": "Thin Margins",
+    "ignored_signals": "영국 국내선 수익성 악화",
+    "evidence": "2020년 운영을 중단했다.",
+    "summary": "박한 마진 구조가 위기를 버티지 못했다.",
+    "sources": ["https://en.wikipedia.org/wiki/Flybe"]
+  },
+  {
+    "case_id": "ST_072",
+    "project_name": "Juicero",
+    "industry": "Consumer Hardware",
+    "failure_reason": "Weak Value Proposition",
+    "ignored_signals": "사용자 대체 가능성",
+    "evidence": "2017년 사업을 종료했다.",
+    "summary": "높은 가격 대비 효용이 부족했다.",
+    "sources": ["https://en.wikipedia.org/wiki/Juicero"]
+  },
+  {
+    "case_id": "ST_073",
+    "project_name": "Jawbone",
+    "industry": "Hardware/Wearables",
+    "failure_reason": "Quality Control & Burn Rate",
+    "ignored_signals": "반복적인 제품 결함",
+    "evidence": "2017년 청산 절차에 들어갔다.",
+    "summary": "품질 문제와 비용 증가가 겹쳤다.",
+    "sources": ["https://en.wikipedia.org/wiki/Jawbone_(company)"]
+  },
+  {
+    "case_id": "ST_074",
+    "project_name": "Pebble",
+    "industry": "Hardware/Wearables",
+    "failure_reason": "Competitive Pressure",
+    "ignored_signals": "대형 플랫폼의 진입",
+    "evidence": "2016년 Fitbit에 자산이 매각되었다.",
+    "summary": "대형 경쟁사 등장으로 독립 생존이 어려웠다.",
+    "sources": ["https://en.wikipedia.org/wiki/Pebble_(watch)"]
+  },
+  {
+    "case_id": "ST_075",
+    "project_name": "Ouya",
+    "industry": "Gaming/Hardware",
+    "failure_reason": "Weak Ecosystem",
+    "ignored_signals": "콘텐츠 부족과 낮은 유지율",
+    "evidence": "2015년 자산이 Razer에 인수되었다.",
+    "summary": "생태계 부족이 경쟁력을 약화시켰다.",
+    "sources": ["https://en.wikipedia.org/wiki/Ouya"]
+  },
+  {
+    "case_id": "ST_076",
+    "project_name": "OnLive",
+    "industry": "Gaming/Streaming",
+    "failure_reason": "High Infrastructure Costs",
+    "ignored_signals": "단위당 서비스 비용 상승",
+    "evidence": "2012년 파산 후 자산이 매각되었다.",
+    "summary": "인프라 비용이 수익을 잠식했다.",
+    "sources": ["https://en.wikipedia.org/wiki/OnLive"]
+  },
+  {
+    "case_id": "ST_077",
+    "project_name": "Zume Inc.",
+    "industry": "FoodTech/Robotics",
+    "failure_reason": "Over-Engineering",
+    "ignored_signals": "로봇 유지비와 낮은 효율",
+    "evidence": "피자 사업을 종료하고 사업 모델을 전환했다.",
+    "summary": "기술 복잡성이 수익성 확보를 방해했다.",
+    "sources": ["https://en.wikipedia.org/wiki/Zume"]
+  },
+  {
+    "case_id": "ST_078",
+    "project_name": "Beepi",
+    "industry": "Marketplace/Automotive",
+    "failure_reason": "Operational Inefficiency",
+    "ignored_signals": "높은 검수·물류 비용",
+    "evidence": "2017년 서비스 종료가 보도되었다.",
+    "summary": "단위 경제성이 악화되며 사업이 종료됐다.",
+    "sources": ["https://en.wikipedia.org/wiki/Beepi"]
+  },
+  {
+    "case_id": "ST_079",
+    "project_name": "Quirky",
+    "industry": "Consumer Products",
+    "failure_reason": "R&D Cost Overrun",
+    "ignored_signals": "제품 실패율 증가",
+    "evidence": "2015년 파산을 신청했다.",
+    "summary": "높은 개발 비용이 수익성을 악화시켰다.",
+    "sources": ["https://en.wikipedia.org/wiki/Quirky_(company)"]
+  },
+  {
+    "case_id": "ST_080",
+    "project_name": "Pets.com",
+    "industry": "E-commerce",
+    "failure_reason": "Customer Acquisition Cost",
+    "ignored_signals": "배송 비용이 마진을 초과",
+    "evidence": "2000년 사업을 종료했다.",
+    "summary": "물류비와 마진 구조가 지속 불가능했다.",
+    "sources": ["https://en.wikipedia.org/wiki/Pets.com"]
+  },
+  {
+    "case_id": "ST_081",
+    "project_name": "Webvan",
+    "industry": "E-commerce/Grocery",
+    "failure_reason": "Overexpansion",
+    "ignored_signals": "수요 대비 과도한 물류 투자",
+    "evidence": "2001년 파산을 신청했다.",
+    "summary": "과도한 인프라 투자가 현금 흐름을 압박했다.",
+    "sources": ["https://en.wikipedia.org/wiki/Webvan"]
+  },
+  {
+    "case_id": "ST_082",
+    "project_name": "Boo.com",
+    "industry": "E-commerce/Fashion",
+    "failure_reason": "Usability Issues",
+    "ignored_signals": "웹 성능 문제와 낮은 전환율",
+    "evidence": "2000년 청산 절차에 들어갔다.",
+    "summary": "초기 기술 환경과 맞지 않는 사용자 경험이 문제였다.",
+    "sources": ["https://en.wikipedia.org/wiki/Boo.com"]
+  },
+  {
+    "case_id": "ST_083",
+    "project_name": "Kozmo.com",
+    "industry": "E-commerce/Delivery",
+    "failure_reason": "Unit Economics Failure",
+    "ignored_signals": "즉시 배송 비용이 수익을 초과",
+    "evidence": "2001년 사업을 종료했다.",
+    "summary": "즉시 배송 모델의 수익성이 맞지 않았다.",
+    "sources": ["https://en.wikipedia.org/wiki/Kozmo.com"]
+  },
+  {
+    "case_id": "ST_084",
+    "project_name": "eToys",
+    "industry": "E-commerce/Toys",
+    "failure_reason": "Inventory Mismanagement",
+    "ignored_signals": "재고 과잉과 가격 경쟁",
+    "evidence": "2001년 파산을 신청했다.",
+    "summary": "수요 예측 실패가 재고 부담으로 이어졌다.",
+    "sources": ["https://en.wikipedia.org/wiki/EToys.com"]
+  },
+  {
+    "case_id": "ST_085",
+    "project_name": "GeoCities",
+    "industry": "Internet/Hosting",
+    "failure_reason": "Platform Obsolescence",
+    "ignored_signals": "소셜·블로그 플랫폼으로 이동",
+    "evidence": "2009년 야후가 서비스를 종료했다.",
+    "summary": "사용자 행태 변화에 대응하지 못했다.",
+    "sources": ["https://en.wikipedia.org/wiki/GeoCities"]
+  },
+  {
+    "case_id": "ST_086",
+    "project_name": "Myspace",
+    "industry": "Social Media",
+    "failure_reason": "Product Stagnation",
+    "ignored_signals": "사용자 활동 감소와 경쟁 심화",
+    "evidence": "2011년 뉴스코프가 대규모 손실을 보고 매각했다.",
+    "summary": "제품 혁신 지연이 사용자 이탈로 이어졌다.",
+    "sources": ["https://en.wikipedia.org/wiki/Myspace"]
+  },
+  {
+    "case_id": "ST_087",
+    "project_name": "Friendster",
+    "industry": "Social Media",
+    "failure_reason": "Scalability Issues",
+    "ignored_signals": "성능 문제와 사용자 불만",
+    "evidence": "2011년 소셜 네트워크 서비스를 종료했다.",
+    "summary": "성능 문제와 경쟁 심화로 서비스가 종료됐다.",
+    "sources": ["https://en.wikipedia.org/wiki/Friendster"]
+  },
+  {
+    "case_id": "ST_088",
+    "project_name": "Orkut",
+    "industry": "Social Media",
+    "failure_reason": "Competitive Displacement",
+    "ignored_signals": "사용자 참여 감소",
+    "evidence": "2014년 구글이 서비스를 종료했다.",
+    "summary": "대체 플랫폼 확산으로 서비스가 종료됐다.",
+    "sources": ["https://en.wikipedia.org/wiki/Orkut"]
+  },
+  {
+    "case_id": "ST_089",
+    "project_name": "Vine",
+    "industry": "Social Media",
+    "failure_reason": "Monetization Failure",
+    "ignored_signals": "크리에이터 이탈",
+    "evidence": "2017년 서비스가 종료됐다.",
+    "summary": "수익 모델 부재가 플랫폼 유지에 실패했다.",
+    "sources": ["https://en.wikipedia.org/wiki/Vine_(service)"]
+  },
+  {
+    "case_id": "ST_090",
+    "project_name": "Google+",
+    "industry": "Social Media",
+    "failure_reason": "Low Adoption",
+    "ignored_signals": "활성 이용자 감소",
+    "evidence": "2019년 소비자용 서비스가 종료됐다.",
+    "summary": "사용자 참여 부족으로 서비스가 종료됐다.",
+    "sources": ["https://en.wikipedia.org/wiki/Google%2B"]
+  },
+  {
+    "case_id": "ST_091",
+    "project_name": "Napster (original)",
+    "industry": "Music/Sharing",
+    "failure_reason": "Legal Risk",
+    "ignored_signals": "저작권 소송 위험",
+    "evidence": "2001년 서비스가 중단됐다.",
+    "summary": "법적 리스크가 사업 지속을 막았다.",
+    "sources": ["https://en.wikipedia.org/wiki/Napster"]
+  },
+  {
+    "case_id": "ST_092",
+    "project_name": "Gawker Media",
+    "industry": "Media",
+    "failure_reason": "Legal Liability",
+    "ignored_signals": "고액 소송 리스크",
+    "evidence": "2016년 파산을 신청했다.",
+    "summary": "법적 리스크가 사업 지속성을 무너뜨렸다.",
+    "sources": ["https://en.wikipedia.org/wiki/Gawker_Media"]
+  },
+  {
+    "case_id": "ST_093",
+    "project_name": "Hertz",
+    "industry": "Transportation/Rental",
+    "failure_reason": "Demand Shock",
+    "ignored_signals": "여행 수요 급감",
+    "evidence": "2020년 파산 보호를 신청했다.",
+    "summary": "수요 급감이 재무 위기로 이어졌다.",
+    "sources": ["https://en.wikipedia.org/wiki/Hertz_Global_Holdings"]
+  },
+  {
+    "case_id": "ST_094",
+    "project_name": "General Motors (2009)",
+    "industry": "Automotive",
+    "failure_reason": "Debt & Demand Collapse",
+    "ignored_signals": "판매 급감과 고정비 부담",
+    "evidence": "2009년 파산 보호를 신청했다.",
+    "summary": "수요 붕괴와 부채가 동시에 발생했다.",
+    "sources": ["https://en.wikipedia.org/wiki/General_Motors_Chapter_11_reorganization"]
+  },
+  {
+    "case_id": "ST_095",
+    "project_name": "Chrysler (2009)",
+    "industry": "Automotive",
+    "failure_reason": "Debt & Market Decline",
+    "ignored_signals": "판매 감소와 구조적 비용 문제",
+    "evidence": "2009년 파산 보호를 신청했다.",
+    "summary": "시장 급락과 부채가 결합됐다.",
+    "sources": ["https://en.wikipedia.org/wiki/Chrysler_Chapter_11_reorganization"]
+  },
+  {
+    "case_id": "ST_096",
+    "project_name": "Alitalia",
+    "industry": "Airline",
+    "failure_reason": "Chronic Losses",
+    "ignored_signals": "장기 적자와 구조조정 반복",
+    "evidence": "2021년 운영을 종료했다.",
+    "summary": "지속적 적자가 항공사 종료로 이어졌다.",
+    "sources": ["https://en.wikipedia.org/wiki/Alitalia"]
+  },
+  {
+    "case_id": "ST_097",
+    "project_name": "Spanair",
+    "industry": "Airline",
+    "failure_reason": "Cash Shortage",
+    "ignored_signals": "지원 자금 중단",
+    "evidence": "2012년 항공편 운항을 중단했다.",
+    "summary": "자금 부족이 즉시 운항 중단으로 이어졌다.",
+    "sources": ["https://en.wikipedia.org/wiki/Spanair"]
+  },
+  {
+    "case_id": "ST_098",
+    "project_name": "Malév Hungarian Airlines",
+    "industry": "Airline",
+    "failure_reason": "Liquidity Crisis",
+    "ignored_signals": "구조적 적자와 보조금 중단",
+    "evidence": "2012년 운영을 중단했다.",
+    "summary": "유동성 위기가 항공편 중단으로 이어졌다.",
+    "sources": ["https://en.wikipedia.org/wiki/Mal%C3%A9v_Hungarian_Airlines"]
+  },
+  {
+    "case_id": "ST_099",
+    "project_name": "Laker Airways",
+    "industry": "Airline",
+    "failure_reason": "Price War",
+    "ignored_signals": "저가 경쟁 심화",
+    "evidence": "1982년 파산했다.",
+    "summary": "가격 전쟁이 수익성을 무너뜨렸다.",
+    "sources": ["https://en.wikipedia.org/wiki/Laker_Airways"]
+  },
+  {
+    "case_id": "ST_100",
+    "project_name": "Hostess Brands (2012)",
+    "industry": "Food & Beverage",
+    "failure_reason": "Labor Disputes & Debt",
+    "ignored_signals": "노사 갈등과 비용 증가",
+    "evidence": "2012년 파산 후 청산 절차에 들어갔다.",
+    "summary": "노사 갈등과 부채 부담이 생산 중단으로 이어졌다.",
+    "sources": ["https://en.wikipedia.org/wiki/Hostess_Brands"]
   }
 ]

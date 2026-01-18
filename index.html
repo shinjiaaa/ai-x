@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI 리스크 검증 시스템</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="background-glow"></div>
+    <div class="app">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand-dot"></div>
+          <div>
+            <h1>AI 리스크 검증 시스템</h1>
+            <p>고정 규격 입력을 통한 계획의 구조적 결함 진단</p>
+          </div>
+        </div>
+
+        <div class="card settings">
+          <div class="card-title">Settings</div>
+          <label class="field">
+            <span>Model</span>
+            <select id="modelSelect">
+              <option value="gpt-4o">gpt-4o</option>
+              <option value="gpt-4-turbo">gpt-4-turbo</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span>비판적 강도</span>
+            <div class="range-row">
+              <input id="tempRange" type="range" min="0" max="1" step="0.1" value="0.7" />
+              <span id="tempValue">0.7</span>
+            </div>
+          </label>
+
+          <div class="info">
+            <span class="info-icon">i</span>
+            <span>.env 파일의 API 키를 사용 중입니다.</span>
+          </div>
+        </div>
+
+        <div class="card tips">
+          <div class="card-title">입력 가이드</div>
+          <ul>
+            <li>목표는 정량 지표로 작성하세요.</li>
+            <li>기저 가정을 명시할수록 분석 정확도가 올라갑니다.</li>
+            <li>낙관 시나리오를 더 구체적으로 적어 주세요.</li>
+          </ul>
+        </div>
+      </aside>
+
+      <main class="content">
+        <section class="card form-card">
+          <div class="card-title">기획서 작성</div>
+          <form id="planForm">
+            <div class="grid">
+              <div class="column">
+                <div class="column-title">프로젝트 정보</div>
+                <div id="projectCol" class="column-body"></div>
+              </div>
+              <div class="column">
+                <div class="column-title">리스크 요인</div>
+                <div id="riskCol" class="column-body"></div>
+              </div>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="primary">리스크 분석 실행</button>
+              <button type="button" class="ghost" id="resetBtn">초기화</button>
+            </div>
+          </form>
+        </section>
+
+        <section class="card results" id="results">
+          <div class="results-header">
+            <div>
+              <div class="card-title">리스크 검증 리포트</div>
+              <p class="subtitle">전문가 모드 기반의 가정 검증 및 실패 시나리오</p>
+            </div>
+            <div class="pill" id="reportMeta">Model: gpt-4o · 강도: 0.7</div>
+          </div>
+
+          <div class="result-block">
+            <div class="block-title">🧐 기저 가정 타당성 검토</div>
+            <p id="assumptionsText" class="block-body muted">입력 후 분석을 실행하면 결과가 표시됩니다.</p>
+          </div>
+
+          <div class="result-block">
+            <div class="block-title">🚨 핵심 실패 시나리오</div>
+            <div id="scenarioList" class="scenario-grid"></div>
+          </div>
+
+          <div class="result-block">
+            <div class="block-title">💡 디바이어싱 전략 조언</div>
+            <p id="adviceText" class="block-body muted">입력 후 분석을 실행하면 결과가 표시됩니다.</p>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
